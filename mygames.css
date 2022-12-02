@@ -1,0 +1,130 @@
+#mainfont {
+    font-family: 'Oswald';
+}
+
+#opensans{
+  font-family: 'Open Sans';
+}
+
+#mrroboto {
+  font-family: 'Roboto';
+}
+.header {
+    /*background-color: #23ccbe;*/
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 800px;
+}
+
+.finalhope {
+  position: relative;
+  top: 250px;
+}
+.talltower {
+  position: relative;
+  top: 100px;
+}
+/* Left and right column */
+.column.side {
+  width: 12%;
+  top: 130px;
+  position: sticky;
+}
+.sidebutton{
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 14px 31px;
+  text-align: center;
+  background-color: rgb(9, 97, 119);
+  text-decoration: none;
+  display: inline-block;
+  border-radius:1em;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.sidebutton:hover {
+  color:black;
+  background-color: rgb(21, 230, 160);
+}
+.backbutton {
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 14px 31px;
+  text-align: center;
+  background-color: rgb(18, 151, 47);
+  text-decoration: none;
+  display: inline-block;
+  left: 30px;
+  top: 70px;
+  border-radius:1em;
+  z-index: 100;
+  font-size: 16px;
+  position: fixed;
+  cursor: pointer;
+}
+.backbutton:hover {
+    color: white;
+    background-color: rgb(21, 230, 160);;
+}
+/* Middle column */
+.column.middle {
+  width: 45%;
+  position: relative;
+  left: 196px;
+  height: 2000px;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  position: fixed;
+  height: 50px;
+  text-align: center;
+}
+body {
+  background-image: url("https://t4.ftcdn.net/jpg/01/98/24/71/360_F_198247162_JwrVkhqowZb4NJC24156nV6QYRhsV8Qf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.outlined {
+  color: rgb(0, 0, 0);
+  text-shadow:
+    -2px -2px 0 rgb(255, 255, 255),
+     0   -2px 0 rgb(255, 255, 255),
+     2px -2px 0 rgb(255, 255, 255),
+     2px  0   0 rgb(255, 255, 255),
+     2px  2px 0 rgb(255, 255, 255),
+     0    2px 0 rgb(255, 255, 255),
+    -2px  2px 0 rgb(255, 255, 255),
+    -2px  0   0 rgb(255, 255, 255);
+}
+.outlined2 {
+  color: rgb(0, 0, 0);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+     0   -1px 0 rgb(255, 255, 255),
+     1px -1px 0 rgb(255, 255, 255),
+     1px  0   0 rgb(255, 255, 255),
+     1px  1px 0 rgb(255, 255, 255),
+     0    1px 0 rgb(255, 255, 255),
+    -1px  1px 0 rgb(255, 255, 255),
+    -1px  0   0 rgb(255, 255, 255);
+}
