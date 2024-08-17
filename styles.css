@@ -171,7 +171,8 @@ body {
 .projects {
     font-size: 30px;
     margin-top: -15vh;
-    margin-left: 15px;
+    margin-left: 5vw;
+    margin-right: 5vw;
     text-align: center;
 }
 .project {
@@ -202,8 +203,14 @@ body {
 }
 .project-img {
     grid-area: img;
+}
+.imgh {
     height: var(--img_size);
     width: auto;
+}
+.imgw {
+    width: var(--img_size);
+    height: auto;
 }
 .left {
     grid-template-areas: 
@@ -214,7 +221,13 @@ body {
     grid-template-areas: 
         'title img'
         'desc img';
-    float: right;
+    margin-left: auto;
+}
+.right .project-desc {
+    margin-right: 20px;
+}
+.left .project-desc {
+    margin-left: 20px;
 }
 .project-sep {
     width: 300px;
