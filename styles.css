@@ -16,6 +16,7 @@ body {
 
 .header {
     position: fixed;
+    z-index: 5;
 }
 .logo-button {
     background: none;
@@ -138,6 +139,16 @@ body {
     text-align: center;
     letter-spacing: 4px;
 }
+.project-button {
+    color: var(--color2);
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: 0;
+}
+.project-button:hover {
+    color:#257aca;
+}
 .little-underline {
     height: 5px;
     width: 80px;
@@ -167,7 +178,18 @@ body {
     height: 4px;
     background-color: var(--color2);
 }
-
+.link-img {
+    width: 30px;
+    height: auto;
+    margin: 0 auto;
+}
+.link-link {
+    margin: 10px auto;
+}
+.contact {
+    margin-top: 100px !important;
+    margin-bottom: 200px !important;
+}
 .projects {
     font-size: 30px;
     margin-top: -15vh;

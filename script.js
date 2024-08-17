@@ -23,3 +23,10 @@ document.addEventListener('click', e => {
         dropdown.classList.remove('active')
     })
 })
+
+document.getElementById("toprojects").addEventListener("click", function() {
+    document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
+});
+document.getElementById("tocontact").addEventListener("click", function() {
+    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+});
