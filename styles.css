@@ -34,10 +34,9 @@ body {
 .main-grid {
     display: grid;
     gap: 0px;
-    height: 100vh;
-    grid-template-columns: 15% 70% 15%;
+    grid-template-columns: 10% 80% 10%;
     grid-template-rows: 40% 45% 90%;
-    margin-bottom: 40vh;
+    margin-bottom: 0vh;
 }
 .invis {
     visibility: hidden;
@@ -135,9 +134,10 @@ body {
     margin: 10px auto;
 }
 .scroll {
-    margin-top: 50px;
+    margin-top: 0px;
     text-align: center;
     letter-spacing: 4px;
+    font-size: 35px;
 }
 .project-button {
     color: var(--color2);
@@ -192,7 +192,7 @@ body {
 }
 .projects {
     font-size: 30px;
-    margin-top: -15vh;
+    margin-top: 0vh;
     margin-left: 5vw;
     margin-right: 5vw;
     text-align: center;
