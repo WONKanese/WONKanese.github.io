@@ -4,8 +4,8 @@
 
 :root {
     --bg: rgb(240, 246, 255);
-    --color1: rgb(0, 5, 80);
-    --color2: rgb(22, 30, 139);
+    --color1: rgb(44, 5, 95);
+    --color2: rgb(63, 22, 139);
     --img_size: 150px;
 }
 body {
@@ -27,7 +27,7 @@ body {
     border-radius: 150px;
 }
 .logo {
-    width: 122.5px;
+    width: 115.5px;
     height: 115.5px;
 }
 
@@ -46,9 +46,9 @@ body {
     font-size: 30px;
 }
 .title {
-    width: 675px;
-    height: 450px;
-    margin: auto;
+    width: auto;
+    height: 500px;
+    margin: -20px auto 150px auto;
 }
 .about-bold {
     margin-left: 40px;
@@ -75,10 +75,10 @@ body {
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2949ff, 0 0 40px #4955ff, 0 0 50px #7f87ff, 0 0 60px hsl(239, 100%, 66%), 0 0 70px #4639ff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #7429ff, 0 0 40px #4955ff, 0 0 50px #7f87ff, 0 0 60px hsl(239, 100%, 66%), 0 0 70px #4639ff;
   }
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #3236eb, 0 0 40px #7c4dff, 0 0 50px #4037c7, 0 0 60px #5f2cd8, 0 0 70px #1511fa, 0 0 80px #4da9ff;
+    text-shadow: 0 0 20px #fff, 0 0 30px #5e1df7, 0 0 40px #7c4dff, 0 0 50px #4037c7, 0 0 60px #5f2cd8, 0 0 70px #1511fa, 0 0 80px #4d50ff;
   }
 }
 
